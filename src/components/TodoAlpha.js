@@ -44,7 +44,7 @@ export const TodoAlpha = () => {
     <div className="TodoAlpha">
       <h1>Get Things Done !</h1>
       <TodoForm addTodo={addTodo} />
-      <div className="scroll_container">
+      <div className="scroll-container">
         <div className="todos-wrapper">
           {todos.map((todo) =>
             todo.isEditing ? (

@@ -90,6 +90,14 @@ h1 {
   cursor: pointer;
 }
 
+.scroll-container {
+  height: 400px; /* Adjust this value based on your needs */
+  overflow-y: auto;
+  border: 1px solid #8758ff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
 
 .todos-wrapper {
   padding: 16px;
